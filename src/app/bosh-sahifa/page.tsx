@@ -1,7 +1,7 @@
 /* eslint-disable react-hooks/set-state-in-effect */
 "use client";
 import Image from "next/image";
-import boshsahifa from "../../../public/Boshsahifa.png";
+// import boshsahifa from "../../../public/boshsahifa.png";
 import rating from "../../../public/Frame 10.svg";
 import vektor from "../../../public/Vector.svg";
 import rasm from "../../../public/Frame 57.png";
@@ -168,7 +168,12 @@ const BoshSahifa = () => {
           />
         </div>
         <div>
-          <Image src={boshsahifa} alt="rasm" width={714} height={563} />
+          <Image
+            src="/Boshsahifa.png"
+            alt="Bosh sahifa"
+            width={714}
+            height={563}
+          />
         </div>
       </div>
       {/* --- Categories --- */}
