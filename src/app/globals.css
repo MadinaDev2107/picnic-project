@@ -1,0 +1,256 @@
+@import "tailwindcss";
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* 
+.car {
+  margin: 100px auto;
+  width: 90%;
+  border: 5px solid red;
+  display: flex;
+  overflow-x: auto;
+  gap: 1em;
+}
+.car::-webkit-scrollbar {
+  display: none;
+}
+
+.guruh {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  border: 5px solid red;
+  animation: aylana 5s infinite linear;
+  padding-right: 1em;
+}
+.box {
+  flex: 0 0 5em;
+  height: 5rem;
+  padding: 1em;
+  background: red;
+  border-radius: 2em;
+  align-content: center;
+} */
+
+/* @keyframes aylana {
+  from {
+    translate: 0;
+  }
+  to {
+    translate: -100%;
+  }
+} */
+
+/* Responsivlik */
+@media (max-width: 900px) {
+  .footer {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 12px;
+    padding: 0px;
+    margin: 0;
+    gap: 20px;
+  }
+}
+@media (max-width: 500px) {
+  .footer2 {
+    flex-direction: column;
+    justify-content: start;
+    text-align: start;
+    align-items: start;
+    font-size: 8px;
+    padding: 0px;
+    padding-top: 30px;
+  }
+}
+
+@media (max-width: 900px) {
+  .hero {
+    flex-direction: column;
+    gap: 20px;
+    text-align: start;
+  }
+}
+
+.titleBosh {
+  font-size: "50px";
+  font-weight: "700";
+  margin-bottom: "70px";
+}
+.titleAloqa {
+  font-size: "50px";
+  font-weight: "700";
+}
+
+@media (max-width: 500px) {
+  .titleBosh {
+    font-size: 25px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .arrow {
+    display: none;
+  }
+}
+.text {
+  font-size: "16px";
+  font-weight: "400";
+}
+.textAloqa {
+  font-size: "16px";
+  font-weight: "400";
+  margin-top: "28px";
+}
+@media (max-width: 500px) {
+  .text {
+    text-align: center;
+  }
+}
+@media (max-width: 500px) {
+  .textAloqa {
+    font-size: "12px";
+    margin-top: "15px";
+  }
+}
+.boshButto {
+  width: 195px;
+  height: 52px;
+}
+@media (max-width: 500px) {
+  .boshButto {
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .cartButto {
+    flex-direction: column;
+    margin: 0px 10px;
+  }
+}
+@media (max-width: 1300px) {
+  .cartDiv {
+    flex-direction: column;
+    margin: 0px 10px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .cartWidth {
+    width: 100%;
+  }
+}
+
+.orderWidth {
+  max-width: 500px;
+}
+
+@media (max-width: 500px) {
+  .cartButto2 {
+    flex-direction: column;
+    margin: 0px 0px;
+  }
+}
+
+@media (max-width: 500px) {
+  .cartQuan {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 500px) {
+  .imagePro {
+    width: 90px;
+    height: 90px;
+  }
+}
+
+@media (max-width: 500px) {
+  .imagePro2 {
+    width: 270px;
+    height: 322px;
+  }
+}
+@media (max-width: 500px) {
+  .textPro {
+    font-size: "24px";
+    font-weight: "700";
+  }
+}
+
+@media (max-width: 500px) {
+  .textBlog {
+    font-size: "18px";
+    font-weight: "400";
+    line-height: "25px";
+  }
+}
+
+@media (max-width: 500px) {
+  .textAloqa {
+    font-size: "28px";
+    font-weight: "700";
+    font: bold;
+  }
+}
+@media (max-width: 600px) {
+  .divPro {
+    margin: 0px 10px;
+  }
+}
+@media (max-width: 600px) {
+  .divPro2 {
+    padding: 0px 20px;
+  }
+}
+@media (max-width: 600px) {
+  .divPro4 {
+    margin-bottom: 47px;
+  }
+}
+
+@media (max-width: 600px) {
+  .divPro3 {
+    padding: 20px 0px;
+    margin: 0px;
+  }
+}
+@media (max-width: 500px) {
+  .aloqaDiv {
+    font-size: 24px;
+    font-weight: 700;
+  }
+}
+
+@media (max-width: 500px) {
+  .auth {
+    width: 300px;
+  }
+}
+
+.footerText {
+  line-height: 30px;
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.footerTitle {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
